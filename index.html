@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt/br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title class="title">ImUnknown</title>
+    <link rel="icon" href="images/G5o4E7kLC9TE.png">
+    <link rel="stylesheet" href="css/dxxk24dDpOjf.css">
+    <link rel="stylesheet" href="css/9Jw7OKFohRG3.css">
+    <link rel="stylesheet" href="css/RXHup1qNuBbR.css">
+    <link rel="stylesheet" href="css/card_music.css">
+</head>
+
+<body>
+    <script>
+        function audioPlay() {
+            var audio = document.getElementById("audio");
+            audio.volume = 0.5;
+            audio.currentTime = 0;
+            audio.play();
+        }
+
+        function disablesong() {
+            audio.pause();
+        }
+
+        function enablesong() {
+            audio.play();
+        }
+    </script>
+
+    <audio loop="" preload="auto" id="audio" src="media/mc-kevin-veracruz.mp3"></audio>
+
+    <input type="checkbox" autocomplete="off" id="overlay-toggle">
+    <div class="overlay fullscreen">
+        <label for="overlay-toggle" onclick="audioPlay();">
+            <span class="overlayno-hover hover" style="font-family: monospace; font-size: 0.6em;">click</span>
+            <span class="overlayhover hover" style="font-family: monospace; font-size: 0.6em;">click</span>
+        </label>
+    </div>
+
+    <video autoplay="" loop="" muted="" id="backgroundVideo" src="backgrounds/homemaranha.mp4"></video>
+
+    <div class="container">
+        <div class="profile">
+            <div class="img">
+                <img class="orep7" src="pngs/unk.jpg">
+            </div>
+            <div class="rep7">iUnknown</div>
+            <div class="rep7 irep7">_unknow.__..</div>
+            <div class="badges">
+                <div class="badge" style="background-image: url('images/cS3naTNoeV90.svg');" data-tooltip="Apoiador Inicial"></div>
+                <div class="badge" style="background-image: url('images/UvqT7YVSuIzO.svg');" data-tooltip="Assinante desde 25 de nov. de 2017"></div>
+                <div class="badge" style="background-image: url('images/boost12month.svg');" data-tooltip="Impulsionando o servidor desde 11 de nov. de 2022"></div>
+                <div class="badge" style="background-image: url('images/Verified_Bot_Developer.svg');" data-tooltip="Verified Bot Developer"></div>
+                <div class="badge" style="background-image: url('images/Active_Developer.svg');" data-tooltip="Active Developer"></div>
+            </div>
+            <div style="text-align: center; position: absolute; left: 50%; transform: translateX(-50%); top: 325px;">
+                <a href="https://discord.com/users/597913546239508490" target="_blank" class="social-button">
+                    <i class="fab fa-discord social-icon"></i>
+                </a>
+            </div>            
+            <div class="7button">
+                <div class="7button-text">ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="audio-player">
+        <div class="album-cover"></div>
+        <div class="player-controls">
+            <div class="song-info">
+                <div class="song-title" id="songTitle">Veracruz</div>
+                <p class="artist" id="artist">Mc Kevin</p>
+            </div>
+            <div class="buttons">
+                <button class="play-btn" onclick="enablesong()">
+                    <svg viewBox="0 0 16 16" class="bi bi-play-fill" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg" style="color: white">
+                        <path fill="white" d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"></path>
+                    </svg>
+                </button>
+                <button class="pause-btn" onclick="disablesong()">
+                    <svg viewBox="0 0 16 16" class="bi bi-pause-fill" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg" style="color: white">
+                        <path fill="white" d="M5.5 3.5A1.5 1.5 0 0 1 7 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5zm5 0A1.5 1.5 0 0 1 12 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5z"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
